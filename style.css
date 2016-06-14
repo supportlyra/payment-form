@@ -1,0 +1,126 @@
+body {
+    width: 1000px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    text-align:justify;
+    font-family:Helvetica, Arial, Verdana, sans-serif;
+    background-color: #fff;
+    color: black;/*#555753;*/
+    font: 75% arial,sans-serif;
+}
+li{margin-left:30px;}
+
+tr{
+background-color: #ffffff;
+
+}
+td {text-align : justify;
+padding:8px;
+}
+
+
+form {
+    margin-right:0;
+    padding:0;
+}
+
+
+
+/* specific divs */
+
+#container {
+	text-align : justify;
+	margin-right: auto;
+    margin-left: auto;
+	padding:30px;
+    background-color: #FFFFFF;
+    border:1px solid #d2d7dc;
+    border-radius:0px;
+    -moz-border-radius:0px;
+    box-shadow:0 0 6px rgba(0,0,0,.25);
+    -moz-box-shadow:0 0 6px rgba(0,0,0,.25);
+    -webkit-box-shadow:0 0 6px rgba(0,0,0,.25);
+}
+
+/* Classes */
+.title_array 
+{
+    background-color:#92A923;
+	color:white;
+    font-weight: bold;
+    font-size: 12px;
+    text-align:left;
+}
+.field_mandatory
+{
+	color:red;
+    font-weight: bold;
+    font-size: 12px;
+    text-align:left;
+}
+.field_warning
+{
+	color:white;
+    font-weight: bold;
+    font-size: 12px;
+    text-align:left;
+	background-color:red;
+}
+
+.header_title
+{
+	color:#000000;
+    font-weight: bold;
+    font-size: 14px;
+    text-align:left;
+	margin-bottom:20px;
+	
+	
+}
+
+.subtitle
+{
+	color:#773306;
+    font-weight: bold;
+    font-size: 12px;
+    text-align:left;
+	text-decoration:underline;
+	
+	
+}
+
+
+.validationButton {
+    background: ##ED0116;
+    background: -moz-linear-gradient(top, #92A923 0%, #BACB00 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#92A923), color-stop(100%,#BACB00));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#92A923', endColorstr='#BACB00',GradientType=0 );
+    border:1px solid black;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    color:#fff;
+    cursor:pointer;
+    display:inline-block;
+    font:12px bold arial,sans-serif;
+    font-weight:bold;
+    margin:0 auto 10px;
+    padding:5px 20px;
+    text-shadow: 1px 1px 2px #444444;
+	
+	margin-right:5px;
+	margin-top:15px;
+}
+.validationButton em{
+font-style:normal;
+}
+.logo_PSP  {
+	
+    float:right;
+    vertical-align:middle;
+}
